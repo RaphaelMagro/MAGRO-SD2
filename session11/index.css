@@ -1,0 +1,40 @@
+* {
+    margin: 0 !important;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.borderbottom {
+    border-bottom: 5px solid rgb(194, 34, 29) !important;
+}
+
+.mainfont {
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    font-size: xx-large;
+}
+
+.profile-image {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.background{
+    background-color: rgb(3, 3, 1) !important;
+}
+
+.navbar {
+    transition: all 0.3s ease;
+}
+
+.navbar:hover {
+    box-shadow: 0 0 15px rgba(204, 34, 34, 0.5);
+    rounded: 10px;
+}
+
+.uniform-image {
+  width: 300px;        /* same width */
+  height: 300px;       /* same height */
+  object-fit: cover;   /* crops nicely */
+}
