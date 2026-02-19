@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Display & Flex Properties</title>
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+<body class="bg-dark text-light p-3">
+    <h1 class="display-2 fw-bold text-center">HTML Display & Flex Properties</h1>
+
+    <hr>
+
+    <h3 class="display-4 text-center text-warning">Display Inline vs Block vs Inline-Block</h3>
+
+    <div class="bg-secondary p-3 mt-5 container rounded-5">
+        <p class="bg-dark rounded-4 p-3" style="width: 100px; height: 100px;">Hello</p>
+        <p>Hello</p>
+        <p>Hello</p>
+        <p>By default, P tags has a display value of block.</p>
+        <hr>
+
+        <span class="bg-dark rounded-4 p-3" style="width: 100px; height: 100px;">World!</span>
+        <span>World!</span>
+        <span>World!</span>
+        <p>By default, SPAN tags has a display value of inline.</p>
+        <hr>
+
+        <span class="d-inline-block bg-danger p-3 rounded-4 text-warning" style="width: 100px; height: 100px;">Hello World!</span>
+        <span>Hello World!</span>
+
+    </div>
+    <br>
+    <hr>
+
+    <h3 class="display-4 text-center text-warning mt-5">Display Flex and Flex Items</h3>
+    <div class="bg-secondary p-3 mt-5 rounded-5 container text-dark">
+        <div class="d-flex p-3 justify-content-evenly">
+            <span class="bg-primary p-3 rounded-4 m-2">Item 1</span>
+            <span class="bg-success p-3 rounded-4 m-2">Item 2</span>
+            <span class="bg-warning p-3 rounded-4 m-2">Item 3</span>
+            <span class="bg-danger p-3 rounded-4 m-2">Item 4</span>
+        </div>
+
+        <div class="d-flex p-3 justify-content-center flex-column">
+            <span class="bg-primary p-3 rounded-4 m-2">Item 1</span>
+            <span class="bg-success p-3 rounded-4 m-2">Item 2</span>
+            <span class="bg-warning p-3 rounded-4 m-2">Item 3</span>
+            <span class="bg-danger p-3 rounded-4 m-2">Item 4</span>
+        </div>
+    </div>
+        
+    
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
