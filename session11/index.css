@@ -30,11 +30,24 @@
 
 .navbar:hover {
     box-shadow: 0 0 15px rgba(204, 34, 34, 0.5);
-    rounded: 10px;
 }
 
 .uniform-image {
-  width: 300px;        /* same width */
-  height: 300px;       /* same height */
+  width: 600px;        /* same width */
+  height: 600px;       /* same height */
   object-fit: cover;   /* crops nicely */
+    transition: transform 0.35s ease;
+}
+
+.gallery-card {
+        transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.gallery-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 12px 24px rgba(255, 255, 255, 0.2);
+}
+
+.gallery-card:hover .uniform-image {
+        transform: scale(1.04);
 }
